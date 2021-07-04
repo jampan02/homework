@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>提出用課題</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>X100アンケート</h1>
+        <form action="example.php" method="POST" class="form">
+            <label class="label">
+                名前:
+                <input type="text" name="name" placeholder="名字 名前">
+            </label>
+            <label class="label">
+                性別:
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">男</label>
+                <input type="radio" id="female" name="female" value="female" checked>
+                <label for="female">女</label>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">その他</label>
+            </label>
+            <label class="label">
+                好きな色:
+                <input type="checkbox" id="red" name="red" checked>
+                <label for="red">赤</label>
+                <input type="checkbox" id="blue" name="blue">
+                <label for="blue">青</label>
+                <input id="yellow" name="yellow" type="checkbox">
+                <label for="yellow">黄</label>
+                <input type="checkbox" id="green" name="green">
+                <label for="green">緑</label>
+            </label>
+            <label class="label">
+                血液型:
+                <select name="blood">
+                    <option>不明</option>
+                    <option>A型</option>
+                    <option>B型</option>
+                    <option>O型</option>
+                    <option>AB型</option>
+                </select>
+            </label>
+            <label class="label">
+                今欲しいもの:
+                <input type="checkbox" id="car" name="car">
+                <label for="car">車</label>
+                <input type="checkbox" id="house" name="house">
+
+                <label for="blue">一軒家</label>
+                <input id="money" name="money" type="checkbox">
+                <label for="money">金</label>
+                <input type="checkbox" id="time" name="time">
+                <label for="time">時間</label>
+            </label>
+            <input type="submit" value="送信する" class="submit">
+        </form>
+    </div>
+</body>
+
+</html>

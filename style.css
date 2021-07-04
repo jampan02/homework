@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+}
+.label{
+    margin-bottom: 20px;
+}
+.submit{
+    display:inline;
+    text-align: center;
+    margin: auto;
+}
